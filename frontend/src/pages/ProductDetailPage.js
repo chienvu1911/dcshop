@@ -23,7 +23,7 @@ const ProductDetailPage = ({ match }) => {
     }
 
     fetchProduct();
-  }, [])
+  }, [match])
 
   return (
     <div className="dc-product-page">
