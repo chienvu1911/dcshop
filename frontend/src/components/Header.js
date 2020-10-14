@@ -10,6 +10,7 @@ const Header = () => {
           <LinkContainer to="/">
             <Navbar.Brand href="/">DC Shop</Navbar.Brand>
           </LinkContainer>
+          
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -24,6 +25,11 @@ const Header = () => {
                   <i className="fa fa-user"></i> Sign In
                 </Nav.Link>
               </LinkContainer>
+              <LinkContainer to="/blog">
+            <Nav.Link>
+              Blog
+            </Nav.Link>
+          </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
